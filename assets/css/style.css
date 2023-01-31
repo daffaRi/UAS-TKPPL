@@ -38,7 +38,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 	border-radius: 3px;
 	right: 15px;
 	bottom: 15px;
-	background: #70b9b0;
+	background: #5A3F11;
 	color: #fff;
 	transition: display 0.5s ease-in-out;
 	z-index: 99999;
@@ -66,13 +66,17 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 	z-index: 997;
 	transition: all 0.5s;
 	padding: 20px 0;
-	background: #D8AC9C;
+	background: #EF962D;
 }
 
-#header.header-scrolled {
-	background: #EAC8AF;
+#header.header-scrolled{
+	background: #9C5518;
 	height: 60px;
 	padding: 10px 0;
+}
+
+.header-scrolled .nav-menu a{
+	color: white !important;
 }
 
 #header .logo h1 {
@@ -102,7 +106,23 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 	}
 }
 
-
+/*--------------------------------------------------------------
+Carousel
+----------------------------------------------------------------*/
+.slide2 h2{
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding-top: 6px; 
+  color: #1B2021;
+  background: #eac8af88;
+  border-style: dotted;
+}
+.slide2 h3{
+  padding: 6px 35px; 
+  color: #1B2021;
+  background: #eac8af88;
+  border-style: dotted;
+}
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -433,22 +453,21 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 # Sections General
 --------------------------------------------------------------*/
 section {
-	padding: 60px 0;
+	padding: 30px 0px;
 }
 
 .section-bg, .section-bg a, .section-bg h2 {
-	background-color: #D8AC9C;
-	color: #1B2021 !important;
+	background-color: #EF962D;
+	color: #000000 !important;
 }
 
 .section-title {
 	text-align: center;
-	padding-bottom: 30px;
 }
 
 .section-title h2 {
 	font-size: 32px;
-	font-weight: 300;
+	font-weight: bold;
 	margin-bottom: 20px;
 	padding-bottom: 0;
 	color: #555;
@@ -529,7 +548,7 @@ section {
 # Call To Action
 --------------------------------------------------------------*/
 .call-to-action {
-	background: linear-gradient(rgba(1, 41, 42, 0.5), rgba(7, 56, 57, 0.5)), url("../img/a.jpg") fixed center center;
+	background: linear-gradient(rgba(7, 56, 57, 0.5), rgba(172, 63, 52, 0.34)), url("../img/bg.png") fixed center center;
 	background-size: cover;
 	padding: 60px 0;
 }
@@ -782,7 +801,7 @@ section {
 	font-size: 18px;
 	display: inline-block;
 	background: #fff;
-	color: #70b9b0;
+	color: #5A3F11;
 	line-height: 1;
 	padding: 8px 0;
 	margin-right: 4px;
@@ -869,7 +888,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-	background: #70b9b0;
+	background: #5A3F11;
 	border: 0;
 	padding: 10px 24px;
 	color: #fff;
@@ -915,7 +934,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-	background: #eac8af;
+	background: #EF962D;
 	padding: 30px 0;
 	color: rgb(0, 0, 0);
 	font-size: 14px;
