@@ -53,7 +53,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 
 .back-to-top:hover {
 	color: #fff;
-	background: #8bc6bf;
+	background: #9C5518;
 	transition: background 0.2s ease-in-out;
 }
 
@@ -189,7 +189,7 @@ Carousel
 }
 
 .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
-	color: #70b9b0;
+	color: #9C5518;
 }
 
 .nav-menu .drop-down > a:after {
@@ -399,7 +399,7 @@ Carousel
 
 #hero .btn-get-started:hover {
 	background: #fff;
-	color: #70b9b0;
+	color: #9C5518;
 	border: 1px solid #70b9b0;
 }
 
@@ -536,7 +536,7 @@ section {
 }
 
 .services .icon-box:hover .title a {
-	color: #70b9b0;
+	color: #9C5518;
 }
 
 .services .description {
@@ -558,7 +558,7 @@ section {
 # Call To Action
 --------------------------------------------------------------*/
 .call-to-action {
-	background: linear-gradient(rgba(7, 56, 57, 0.5), rgba(172, 63, 52, 0.34)), url("../img/bg.png") fixed center center;
+	background: linear-gradient(rgba(7, 56, 57, 0.5), rgba(172, 63, 52, 0.34)), url("../img/bg.jpg") fixed center center;
 	background-size: cover;
 	padding: 60px 0;
 }
@@ -906,7 +906,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-	background: #92cac3;
+	background: #9C5518;
 }
 
 @-webkit-keyframes animate-loading {
